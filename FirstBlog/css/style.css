@@ -1,0 +1,51 @@
+body{
+	font-family:verdana, helvetica, sans-serif;
+	font-size:16px;
+	line-height:1.5;
+	padding:0;
+	margin:0;
+	background-color:#f0f0f0;
+}
+/*global*/
+.container{
+	width:70%;
+	margin:auto;
+	overflow:hidden;
+}
+ul{
+	margin:0;
+	padding:0;
+}
+/*header*/
+header{
+	color:black;
+	padding-top:30px;
+	min-height:70px;
+}
+#site-description{
+	background-color:#b30000;
+	color:white;
+	padding:4px 8px;
+	font-size:25px;
+}
+header a{
+	text-decoration:none;
+	color:black;
+	text-transform:uppercase;
+	font-size:16px;
+}
+header nav{
+	margin-left:14%;
+}
+header ul{
+	list-style-type:none;
+}
+header li{
+	display:inline;
+	padding:0px 15px;
+	float:left;
+}
+header .highlight, header .current a{
+	color:#00ccff;
+	font-weight:bold;
+}
